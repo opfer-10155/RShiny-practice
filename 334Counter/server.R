@@ -9,6 +9,6 @@ shinyServer(function(input, output) {
         count1 <- count1 + 33
         count2 <- count2 + 4
 
-        h1(paste(count1, " - ", count2))
+        paste(count1, " - ", count2)
     })
 })
