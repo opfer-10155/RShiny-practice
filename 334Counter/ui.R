@@ -14,7 +14,7 @@ shinyUI(
 
         mainPanel(
             h3("output"),
-            htmlOutput("count")
+            textOutput("count")
         )
 
     )

@@ -5,7 +5,7 @@ count2 <- 0
 
 shinyServer(function(input, output) {
 
-    output$count <- renderUI({
+    output$count <- renderText({
         tmp <- input.action
         count1 <- count1 + 33
         count2 <- count2 + 4
