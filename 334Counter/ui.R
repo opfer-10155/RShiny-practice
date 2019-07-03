@@ -13,7 +13,7 @@ shinyUI(
         ),
 
         mainPanel(
-            h3("33-4")
+            uiOutput("count")
         )
 
     )
