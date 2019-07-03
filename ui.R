@@ -4,7 +4,7 @@ library(shiny)
 shinyUI(pageWithSidebar(
   
   # Application title
-  headerPanel("Hello World!!"),
+  headerPanel(h1("Hello World!!"),
   
   # Sidebar with a slider input for number of observations
   sidebarPanel(
