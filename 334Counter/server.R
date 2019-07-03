@@ -1,7 +1,7 @@
 library(shiny)
 
-count1 = 0
-count2 = 0
+count1 <- 0
+count2 <- 0
 
 shinyServer(function(input, output) {
     output$count <- renderUI({
