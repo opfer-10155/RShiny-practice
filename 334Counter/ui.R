@@ -10,6 +10,10 @@ shinyUI(
         sidebarPanel(
             h3("33-4")
             actionButton("action", "Action")
+        ),
+
+        mainPanel(
+            h3("33-4")
         )
 
     )
