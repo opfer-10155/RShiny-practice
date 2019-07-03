@@ -6,6 +6,8 @@ shinyUI(pageWithSidebar(
   # Application title
   headerPanel("Hello World!!"),
   
+  position="right",
+
   # Sidebar with a slider input for number of observations
   sidebarPanel(
     sliderInput("bins",
