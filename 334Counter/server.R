@@ -4,6 +4,7 @@ count1 <- 0
 count2 <- 0
 
 shinyServer(function(input, output) {
+
     output$count <- renderUI({
         tmp <- input.action
         count1 <- count1 + 33
@@ -11,4 +12,4 @@ shinyServer(function(input, output) {
 
         h1(paste(count1, " - ", count2))
     })
-}
+})
