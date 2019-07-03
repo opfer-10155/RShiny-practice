@@ -5,10 +5,10 @@ count2 <- 0
 
 shinyServer(function(input, output) {
 
-    output$count <- renderText({
+    output$count <- renderUI({
         count1 <- count1 + 33
         count2 <- count2 + 4
 
-        paste(count1, " - ", count2)
+        h1(paste(count1, " - ", count2))
     })
 })
