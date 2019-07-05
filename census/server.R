@@ -20,7 +20,7 @@ shinyServer(function(input, output) {
             "Percent White"    = "% White",
             "Percent Black"    = "% Black",
             "Percent Hispanic" = "% Hispanic",
-            "Percent Hispanic" = "% Hispanic"
+            "Percent Asian"    = "% Asian"
         )
         percent_map(
             var=data,
