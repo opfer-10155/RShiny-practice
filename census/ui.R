@@ -28,7 +28,7 @@ shinyUI(
                     label = "Range of interest:",
                     min = 0, max = 100, value = c(0, 100)
                 )
-            )
+            ),
 
             mainPanel(plotOutput("map"))
         )
