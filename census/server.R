@@ -23,11 +23,11 @@ shinyServer(function(input, output) {
             "Percent Hispanic" = "% Hispanic"
         )
         percent_map(
-            data,
+            var=data,
             color="darkgreen",
             legend.title=title,
-            #min=input$range[1],
-            #max=input$range[2]
+            min=input$range[1],
+            max=input$range[2]
         )
     })
 })
