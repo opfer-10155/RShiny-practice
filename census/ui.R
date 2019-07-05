@@ -22,7 +22,9 @@ shinyUI(
             sliderInput(
                 "range",
                 label = "Range of interest:",
-                min = 0, max = 100, value = c(0, 100)
+                min = 0,
+                max = 100,
+                value = c(0, 100)
             )
         ),
 
