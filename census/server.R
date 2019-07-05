@@ -18,9 +18,9 @@ shinyServer(function(input, output) {
 
         title <- switch(
             input$var,
-            "Percent White"    = "% White"
-            "Percent Black"    = "% Black"
-            "Percent Hispanic" = "% Hispanic"
+            "Percent White"    = "% White",
+            "Percent Black"    = "% Black",
+            "Percent Hispanic" = "% Hispanic",
             "Percent Hispanic" = "% Hispanic"
         )
 
