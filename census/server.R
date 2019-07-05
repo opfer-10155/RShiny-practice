@@ -28,8 +28,8 @@ shinyServer(function(input, output) {
             data,
             color="darkgreen",
             legend.title=title,
-            max=input$range[0]
-            min=input$range[1]
+            min=input$range[0]
+            max=input$range[1]
         )
     })
 })
