@@ -9,7 +9,7 @@ shinyUI(
 
         sidebarPanel(
             h3("33-4"),
-            actionButton("action", label = "Action")
+            actionButton("action", label = "33-4")
         ),
 
         mainPanel(
