@@ -10,7 +10,7 @@ shinyServer(function(input, output) {
         count1 <- count1 + 33
         count2 <- count2 + 4
 
-        h1(input.action)
+        h1(input$action)
     })
 })
 # paste(count1, " - ", count2)
