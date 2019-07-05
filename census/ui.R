@@ -10,8 +10,8 @@ shinyUI(
                     information from the 2010 US Census."),
             selectInput(
                 "var",
-                label = "Choose a variable to display",
-                hoices = c(
+                label="Choose a variable to display",
+                choices=c(
                     "Percent White",
                     "Percent Black",
                     "Percent Hispanic",
