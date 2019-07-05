@@ -13,7 +13,7 @@ shinyUI(
         ),
 
         mainPanel(
-            h3("output"),
+            h3("ウ ン チ ー コ　ン　グ"),
             htmlOutput("count")
         )
 
