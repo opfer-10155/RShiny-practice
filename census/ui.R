@@ -21,7 +21,7 @@ shinyUI(
                         "Percent Asian"
                     ),
                     selected = "Percent White"
-                )
+                ),
 
                 sliderInput(
                     "range",
